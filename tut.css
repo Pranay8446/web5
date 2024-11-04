@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#main{
+    height: 44vw;
+    width: 100%;
+    background-image: url(h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 80%;
+    color: white;
+    
+}
+header{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.h{
+    font-size: 16px;
+    margin-left: 10vw;
+    color: white;
+}
+.h h1{
+    color: white;
+}
+nav{
+    margin-left: 28vw;
+    justify-self: end;
+
+}
+nav a{
+    margin: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(141 175 161);
+}
+nav a:hover{
+    color: #ffff;
+    text-decoration: underline 2px  solid yellow ;
+    transition: all ease ;
+}
+button{
+    background-color: transparent;
+}
+.icon{
+    margin: 4vw;
+}
+.icon span{
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+}
+.icon span:hover{
+    cursor: pointer;
+    
+}
+.page{
+    margin-left: 10vw;
+    font-size: 36px;
+    margin-top: 2vw;
+    
+}
+.page h2{
+    color: white;
+}
+.page p{
+    margin-top: 1.3vw;
+    font-size: 17px;
+    width: 32vw;
+    /* background-color: red; */
+    color: rgb(141 175 161);
+}
+.page button{
+    height: 3vw;
+    width: 9vw;
+    border-radius: 22px;
+    border: 2px solid rgb(141 175 161);
+    margin-top: 1.3vw;
+    color: white;
+}
+.page button:hover{
+    cursor: pointer;
+}
+#page1{
+    height: 30vw;
+}
+#hi{
+    margin-left: 10vw;
+}
+.pro{
+    margin-top: 6vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    justify-content: start;
+}
+#hi{
+    text-align: start;
+    height: 22vw;
+    width: 18vw;
+}
+#hi h2{
+    margin-top: 5px;
+    margin-bottom: 1.2vw;
+    font-size: 38px;
+}
+#hi button{
+    margin-top: 1.5vw;
+    height: 3vw;
+    width: 9vw;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+}
+#hi button:hover{
+    cursor: pointer;
+}
+.g{
+    height: 22vw;
+    width: 18vw;
+    /* background-color: red; */
+    text-align: center;
+    display: absolute;
+}
+
+.g img{
+    position: relative;
+    height: 260px;
+    width: 258px;
+}
+
+.g:hover{
+    background-color: rgb(220, 229, 228);
+    border-radius: 25PX;
+    cursor: pointer;
+    transform: scale(1.01,1.01);
+}
+
+#page2{
+    height: 200vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.info{
+    display: grid;
+    background-color: red;
+    align-items: center;
+    justify-content: start;
+    row-gap: 23px;
+    columns: 1;
+    grid-template-columns: auto auto;
+    width: 40vw;
+}
+#page2{
+    display: flex;
+}
+.k{
+    height: 7vw;
+    width: 16vw;
+}
+
+.img img{
+    height: 40vw;
+    width: 30vw;
+}
+
+
+
+
+
+
